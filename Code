@@ -11,7 +11,7 @@ Tone, Arduino, https://www.arduino.cc/en/Reference/Tone
 */
 
 // set pin numbers:
-const int buttonPin = 2;     // the number of the switch pin
+const int switchPin = 2;     // the number of the switch pin
 int Buzzer1 = 9;
 
 // variables will change:
@@ -21,7 +21,7 @@ void setup() {
   // setting up the piezo as output:
   pinMode(Buzzer1, OUTPUT);  
   // initialize the pushbutton pin as an input:
-  pinMode(buttonPin, INPUT);     
+  pinMode(switchPin, INPUT);     
 }
 
 void loop(){
