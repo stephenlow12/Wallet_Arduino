@@ -1,5 +1,3 @@
-# Wallet_Arduino
-Wearables
 /* 
 Expressive Wearables 
 Stephen Low
